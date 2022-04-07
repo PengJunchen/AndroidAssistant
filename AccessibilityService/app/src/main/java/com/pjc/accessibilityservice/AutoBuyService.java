@@ -104,7 +104,7 @@ public class AutoBuyService extends AccessibilityService {
                 AccessibilityNodeInfo parentNode = accessibilityNodeInfoList.get(0).getParent();
                 int count = parentNode.getChildCount();
                 while (count > 0) {
-                    if (parentNode.getChild(count - 1).getText().length() > 0) {
+                    if (parentNode.getChild(count -1).getText() != null && parentNode.getChild(count - 1).getText().length() > 0) {
                         if (findNodeListByTextAndClick(event, DING_DONG_PAY_TEXT)) {
                             DING_DONG_STATUS = 3;  //执行成功进入选择时间界面
                             break;
@@ -200,6 +200,7 @@ public class AutoBuyService extends AccessibilityService {
             case 3: {
                 // 判断时间有效性
                 // 叮咚已经是自适应时间段 本段落逻辑未完善
+                DING_DONG_STATUS = 2;
                 Toast.makeText(getApplicationContext(), "Pay the money!", Toast.LENGTH_LONG).show();
             }
             break;
@@ -264,6 +265,7 @@ public class AutoBuyService extends AccessibilityService {
             }
             break;
             case 3: {
+                HIPPO_STATUS = 2;
                 Toast.makeText(getApplicationContext(), "Pay the money!", Toast.LENGTH_LONG).show();
             }
             break;
