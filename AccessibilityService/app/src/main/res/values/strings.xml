@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AccessibilityService</string>
+    <string name="description_intro">
+        "<b>使用说明：</b>"
+
+        "1. 无法保证100%下单成功。\n"
+        "2. 开启插件之前，请确保已经把商品加入购物车并选中，并设置好收货地址，付款方式。\n"
+        "3. 由于插件需要使用无障碍服务，必须由用户手动授权，你可以通过点击下方 [开启插件] 按钮跳转到对应页面。也可以通过系统设置>无障碍>已下载的应用>AccessibilityService 来开启插件。开启插件前请仔细阅读系统提示。\n"
+
+        "<b>本软件完全开源，仅供个人学习，不可用作其他用途</b>"
+    </string>
+</resources>
