@@ -4,7 +4,7 @@
     android:description="@string/description_intro"
     android:accessibilityEventTypes="typeWindowStateChanged|typeWindowContentChanged|typeNotificationStateChanged"
     android:accessibilityFeedbackType="feedbackAllMask"
-    android:packageNames="com.yaya.zone"
+    android:packageNames="com.yaya.zone,com.wudaokou.hippo,cn.missfresh.application"
     android:notificationTimeout="10"
     android:accessibilityFlags="flagDefault|flagRetrieveInteractiveWindows|flagIncludeNotImportantViews"
     android:canRetrieveWindowContent="true"/>
