@@ -1,7 +1,6 @@
 package com.pjc.accessibilityservice;
 
 import android.accessibilityservice.AccessibilityService;
-import android.app.UiAutomation;
 import android.util.Log;
 import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityNodeInfo;
